@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Terrain-Analyser
+Version: 0.0.4
+Summary: This package is used for terrain analysis.
+Home-page: https://github.com/JuliusKTU/TerrainAnalyser
+Author: Julius Gudauskas
+Author-email: julgud@ktu.lt
+License: MIT
+Keywords: Terrain Analysis
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+# Terrain Analyser
+
+## Instructions
+
+1. Install:
+
+```
+pip install 
+```

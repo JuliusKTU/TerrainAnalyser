@@ -1,0 +1,37 @@
+# Terrain Analyser
+
+The purpose of this component is to provide a comprehensive terrain analysis map with classified territories. It aims to assist in understanding and visualizing the distribution of different types of land cover over a given area.
+
+Provided Functions
+
+o	Satellite Photo Analysis - The component utilizes satellite photos to perform terrain analysis.\
+o	Territory Classification - It classifies the terrain into distinct territories such as city, cultivated fields, forest, and grassland.\
+o	Percentage Coverage - It calculates the percentage of area covered by each classified territory.\
+
+
+The component relies on satellite imagery and remote sensing data to perform terrain analysis. It may require access to specific satellite imagery providers or geospatial data repositories. While the component strives to provide accurate terrain analysis and classification, it may encounter challenges in distinguishing certain land cover types or in areas with complex terrains, such as dense urban environments or mixed-use regions. The component's accuracy and effectiveness depend on the quality and availability of satellite imagery. Higher resolution imagery generally provides more precise results.
+
+## Instructions
+
+1. Installing
+
+```
+pip install -i https://test.pypi.org/simple/ TerrainAnalyser
+```
+
+2. Usage 
+
+```
+# Provide terrain image
+TerrainImage.provide_image("Vilnius_Lithuania.tif", "54.687157;25.279652", "1:100")
+```
+
+```
+# Get provided image terrain analysis map
+TerrainImage.get_terrain_analysis_map()
+```
+
+```
+# Get provided image terrain analysis statistics
+TerrainImage.get_terrain_analysis_statistics()
+```
